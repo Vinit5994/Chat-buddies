@@ -2,7 +2,7 @@ import './App.css';
 import io from 'socket.io-client'
 import { useState } from 'react'
 import Chat from './Chat';
-const socket = io.connect("http://localhost:3002");
+const socket = io.connect("https://6349534f8a7a593c8833ffe7--mellow-pithivier-f365d7.netlify.app/");
 
 
 
